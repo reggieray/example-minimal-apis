@@ -14,7 +14,7 @@ using Xunit;
 
 namespace Examples.MinimalApi.Todo.FastEndpoints.IntegrationTests
 {
-    public class GetAllTodosEndpointTests
+    public class GetAllTodosEndpointTests : BaseEndpointTests
     {
         [Fact]
         public async Task GetAllTodos_Returns_OK()
@@ -34,8 +34,7 @@ namespace Examples.MinimalApi.Todo.FastEndpoints.IntegrationTests
         public async Task GetAllTodos_Returns_Todos()
         {
             // Arange
-            var fixture = new Fixture();
-            var todoItems = fixture.CreateMany<TodoItem>();
+            var todoItems = Fixture.CreateMany<TodoItem>();
             var expectedResponse = DomainToResponseMapper.Map(todoItems);
             var mockTodoService = new Mock<ITodoService>();
             mockTodoService.Setup(x => x.GetAllAsync(It.IsAny<CancellationToken>())).ReturnsAsync(todoItems);

@@ -27,6 +27,8 @@ namespace Examples.MinimalApi.Todo.FastEndpoints.Endpoints
 
         public override async Task HandleAsync(CreateTodoRequest req, CancellationToken ct)
         {
+            _ = req ?? throw new ArgumentNullException(nameof(req));
+
             var todo = RequestToDomainMapper.Map(req);
 
             await _todoService.CreateAsync(todo, ct).ConfigureAwait(false);

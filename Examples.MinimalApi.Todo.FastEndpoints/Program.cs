@@ -14,6 +14,7 @@ builder.Services.AddSwaggerDoc();
 
 var app = builder.Build();
 
+app.UseDefaultExceptionHandler();
 app.UseFastEndpoints();
 
 app.UseHttpsRedirection();
