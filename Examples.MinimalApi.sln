@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. HelloWorld", "0. HelloWorld", "{BFB5527B-898E-4CFA-8C5A-8EBE377CF6E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Comparison", "1. Comparison", "{3BFAC71F-13C3-4EC4-8774-3F78970531DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples.MinimalApi.HelloWorld", "Examples.MinimalApi.HelloWorld\Examples.MinimalApi.HelloWorld.csproj", "{67FE7426-05C3-4209-84BB-7D5239A017E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples.MinimalApi.WeatherForecast", "Examples.MinimalApi.WeatherForecast\Examples.MinimalApi.WeatherForecast.csproj", "{442B94D3-4914-4505-95B2-058C2E8FFB51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples.MVC.WeatherForecast", "Examples.MVC.WeatherForecast\Examples.MVC.WeatherForecast.csproj", "{37B2E6BB-4F24-4203-A10A-271C5069B2D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Structure", "2. Structure", "{5D8D9765-FE47-445F-B6AF-D7F1A5CD1782}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Testing", "4. Testing", "{1DD91499-2FCA-41A3-B3D1-A0CD2C56CBCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B774F2A4-5FDB-4873-A0CC-83F557E812C8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples.MinimalApi.Todo.EFCore", "Examples.MinimalApi.Todo.EFCore\Examples.MinimalApi.Todo.EFCore.csproj", "{3603CD87-9672-41F2-B4F8-47F7787237B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples.MinimalApi.Todo.MediatR", "Examples.MinimalApi.Todo.MediatR\Examples.MinimalApi.Todo.MediatR.csproj", "{7DE42142-E9EB-42F4-915B-A638CDA819C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples.MinimalApi.Todo.FastEndpoints", "Examples.MinimalApi.Todo.FastEndpoints\Examples.MinimalApi.Todo.FastEndpoints.csproj", "{BF7B54C9-534A-42F0-A5DE-BADBBF3E1D25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67FE7426-05C3-4209-84BB-7D5239A017E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67FE7426-05C3-4209-84BB-7D5239A017E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67FE7426-05C3-4209-84BB-7D5239A017E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67FE7426-05C3-4209-84BB-7D5239A017E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{442B94D3-4914-4505-95B2-058C2E8FFB51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442B94D3-4914-4505-95B2-058C2E8FFB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442B94D3-4914-4505-95B2-058C2E8FFB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442B94D3-4914-4505-95B2-058C2E8FFB51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37B2E6BB-4F24-4203-A10A-271C5069B2D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B2E6BB-4F24-4203-A10A-271C5069B2D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B2E6BB-4F24-4203-A10A-271C5069B2D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B2E6BB-4F24-4203-A10A-271C5069B2D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3603CD87-9672-41F2-B4F8-47F7787237B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3603CD87-9672-41F2-B4F8-47F7787237B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3603CD87-9672-41F2-B4F8-47F7787237B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3603CD87-9672-41F2-B4F8-47F7787237B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE42142-E9EB-42F4-915B-A638CDA819C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE42142-E9EB-42F4-915B-A638CDA819C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE42142-E9EB-42F4-915B-A638CDA819C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE42142-E9EB-42F4-915B-A638CDA819C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF7B54C9-534A-42F0-A5DE-BADBBF3E1D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7B54C9-534A-42F0-A5DE-BADBBF3E1D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7B54C9-534A-42F0-A5DE-BADBBF3E1D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7B54C9-534A-42F0-A5DE-BADBBF3E1D25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67FE7426-05C3-4209-84BB-7D5239A017E8} = {BFB5527B-898E-4CFA-8C5A-8EBE377CF6E8}
+		{442B94D3-4914-4505-95B2-058C2E8FFB51} = {3BFAC71F-13C3-4EC4-8774-3F78970531DA}
+		{37B2E6BB-4F24-4203-A10A-271C5069B2D3} = {3BFAC71F-13C3-4EC4-8774-3F78970531DA}
+		{3603CD87-9672-41F2-B4F8-47F7787237B8} = {5D8D9765-FE47-445F-B6AF-D7F1A5CD1782}
+		{7DE42142-E9EB-42F4-915B-A638CDA819C6} = {5D8D9765-FE47-445F-B6AF-D7F1A5CD1782}
+		{BF7B54C9-534A-42F0-A5DE-BADBBF3E1D25} = {5D8D9765-FE47-445F-B6AF-D7F1A5CD1782}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDB1EDF3-2A19-45DB-AD6E-E33577E43D26}
+	EndGlobalSection
+EndGlobal
