@@ -56,8 +56,10 @@ var choose = [Example(2)][Example(3)] object (bool b) => b ? 1 : "two";
 2. Structure - Todo Minimal API's structured in various ways with some examples using popular libraries.
 4. Testing - Unit tests and integration tests for Minimal APIs.
 
-# Further reading
+# Useful links
 
-- [Creating a minimal web API](https://docs.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-6.0&tabs=visual-studio) - Tutorial documentation from Microsoft for creating a minimal API. Also contains a instructions for creating a Todo app.
- - [Minimal APIs overview](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-6.0) - Microsoft documentation overview on Minimal APIs.
-- [Integration testing minimal apis](https://github.com/martincostello/dotnet-minimal-api-integration-testing) - Github repo exploring integration testing.
+- [Creating a minimal web API](https://docs.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-6.0&tabs=visual-studio)
+ - [Minimal APIs overview](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-6.0)
+- [Integration testing minimal apis](https://github.com/martincostello/dotnet-minimal-api-integration-testing)
+- [Minimal API Playground](https://github.com/DamianEdwards/MinimalApiPlayground)
+- [.NET Docs Show on Minimal APIs](https://github.com/Elfocrash/DotnetDocsShow.MinimalApis) - [Youtube Link](https://www.youtube.com/watch?v=HDinmuGYaIA)
