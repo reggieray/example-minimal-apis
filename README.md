@@ -51,12 +51,10 @@ var choose = [Example(2)][Example(3)] object (bool b) => b ? 1 : "two";
 
 # Contents
 
-- 0. Hello World - A simple hello world example project.
-- 1. Comparison - Minimal API vs MVC/Controller API project comparison.
-- 2. Structure - Todo Minimal API's structured in various ways with some examples using popular libraries.
-- 4. Testing - Unit tests and integration tests for Minimal APIs.
-
-
+0. Hello World - A simple hello world example project.
+1. Comparison - Minimal API vs MVC/Controller API project comparison.
+2. Structure - Todo Minimal API's structured in various ways with some examples using popular libraries.
+4. Testing - Unit tests and integration tests for Minimal APIs.
 
 # Further reading
 
